@@ -1,0 +1,40 @@
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+header .navbar {
+    background-color: #8e4848;
+}
+
+footer .navbar {
+    background-color: #2d2d2d;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li:hover {
+    background-color: #CCC;
+}
+
+.navbar li:hover a {
+    color: black;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.features .panel {
+    min-height: 350px;
+}
+
+.navbar li {
+    padding-bottom: 5px;
+}
+.navbar li.active {
+    padding-bottom: 0;
+    border-bottom: 5px solid #eee;
+}

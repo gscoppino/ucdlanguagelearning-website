@@ -1,6 +1,18 @@
+body {
+    margin-bottom: 4em; /* footer */
+}
+
+body.no-margin {
+    margin-bottom: 0;
+}
+
 .navbar {
     border-radius: 0;
     margin-bottom: 0;
+}
+
+.project-overview small {
+    font-size: 0.75em;
 }
 
 header .navbar {
